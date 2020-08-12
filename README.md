@@ -1,5 +1,5 @@
-@test/hello-world
+@test/card-list
 ===============================================
-Test task by Serzh.
+Creating component using NE Component library.
 
 Component Authors, provide some documentation for your users here!

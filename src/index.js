@@ -1,1 +1,1 @@
-import './x-523899-hello-world';
+import './x-523899-card-list';

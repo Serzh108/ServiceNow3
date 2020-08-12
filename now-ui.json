@@ -1,26 +1,26 @@
 {
 	"components": {
-	    "x-523899-hello-world": {
-				"innerComponents": [],
-				"uiBuilder": {
-					"associatedTypes": ["global.core"],
-					"label": "My Test Task",
-					"icon": "chart-forecast-fill",
-					"description": "Hello World component"
-				},
-				"actions": [
-					{
-						"name": "SEND_MESSAGE",
-						"description": "Send a message to ..."
-					}
-				],		
-				"properties": [
-					{
-						"name": "backgroundColor",
-						"defaultValue": "blue"
-					}
-				]		
-			}			
+	    "x-523899-card-list": {
+					"innerComponents": [],
+					"uiBuilder": {
+						"associatedTypes": ["global.core"],
+						"label": "My Test Card List",
+						"icon": "document-fill",
+						"description": "Test Card List. Created using library."
+					},
+					"actions": [
+						{
+							"name": "Open Record",
+							"description": "Open record"
+						}
+					],		
+					"properties": [
+						{
+							"name": "backgroundColor",
+							"defaultValue": "green"
+						}
+					]		
+	    }
 	},
-	"scopeName": "x_523899_test_he_1"
+	"scopeName": "x_523899_test_ca_0"
 }

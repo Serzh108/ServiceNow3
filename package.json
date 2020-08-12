@@ -1,12 +1,12 @@
 {
-	"name": "@test/hello-world",
+	"name": "@test/card-list",
 	"version": "0.0.1",
 	"private": false,
-	"description": "Test task by Serzh.",
+	"description": "Creating component using NE Component library.",
 	"keywords": [
 		"ServiceNow",
 		"Now Experience UI Component",
-		"@test/hello-world"
+		"@test/card-list"
 	],
 	"readme": "./README.md",
 	"engines": {
@@ -15,13 +15,14 @@
 	},
 	"module": "src/index.js",
 	"dependencies": {
-		"@servicenow/ui-core": "orlando",
-		"@servicenow/ui-renderer-snabbdom": "orlando",
 		"@servicenow/cli-archetype": "17.0.3",
 		"@servicenow/cli-component-archetype": "17.0.3",
-		"@servicenow/sass-theme": "orlando",
+		"@servicenow/library-translate": "orlando",
+		"@servicenow/now-template-card": "^17.0.1",
 		"@servicenow/sass-kit": "orlando",
-		"@servicenow/library-translate": "orlando"
+		"@servicenow/sass-theme": "orlando",
+		"@servicenow/ui-core": "orlando",
+		"@servicenow/ui-renderer-snabbdom": "orlando"
 	},
 	"devDependencies": {
 		"@servicenow/cli-archetype-dev": "17.0.3",

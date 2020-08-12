@@ -1,4 +1,4 @@
-describe('x-523899-hello-world Test', () => {
+describe('x-523899-card-list Test', () => {
 	it('should be true', () => {
 		expect(true).toBe(true);
 	});
