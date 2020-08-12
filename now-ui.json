@@ -1,0 +1,26 @@
+{
+	"components": {
+	    "x-523899-hello-world": {
+				"innerComponents": [],
+				"uiBuilder": {
+					"associatedTypes": ["global.core"],
+					"label": "My Test Task",
+					"icon": "chart-forecast-fill",
+					"description": "Hello World component"
+				},
+				"actions": [
+					{
+						"name": "SEND_MESSAGE",
+						"description": "Send a message to ..."
+					}
+				],		
+				"properties": [
+					{
+						"name": "backgroundColor",
+						"defaultValue": "blue"
+					}
+				]		
+			}			
+	},
+	"scopeName": "x_523899_test_he_1"
+}
